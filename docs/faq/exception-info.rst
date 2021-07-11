@@ -22,7 +22,7 @@ listed as parameters in the constructor cannot be resolved from the container.  
 
 The two most common reasons for this are:
 
-    - The type represents a service that has not been correctly registered in the container. In the case above, `MyApp.IMyDependency` 
+    - The parameter type represents a service that has not been correctly registered in the container. In the case above, `MyApp.IMyDependency` 
       has not been registered, so the constructor cannot be invoked.
 
     - You have some parameter in your constructor that isn't actually a service, and won't be available in the container (for example, some string identifier).
