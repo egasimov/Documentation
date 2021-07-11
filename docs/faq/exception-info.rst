@@ -1,6 +1,6 @@
-=============
-Common Errors
-=============
+==============================
+What does this exception mean?
+==============================
 
 This list provides more detail about common `DependencyResolutionException` errors you may see.
 
