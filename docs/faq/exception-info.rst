@@ -10,7 +10,7 @@ on common messages for `DependencyResolutionException`, what they mean, and how 
 None of the constructors found can be invoked
 =============================================
 
-Example Message::
+::
 
     None of the constructors found on type 'MyApp.MyComponent' can be invoked with the available services and parameters:
     Cannot resolve parameter 'MyApp.IMyDependency myDep' of constructor 'Void .ctor(MyApp.IMyDependency)'.
