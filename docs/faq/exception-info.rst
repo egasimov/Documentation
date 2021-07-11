@@ -7,8 +7,6 @@ When something goes wrong while trying to resolve a service, you'll usually get 
 There's lots of detail in those errors to help you figure out what's wrong, but we've gone into a bit more depth here
 on common messages for `DependencyResolutionException`, what they mean, and how to resolve them.
 
-.. _err-no-constructors-bindable-default-binder:
-
 None of the constructors found can be invoked
 =============================================
 
